@@ -63,7 +63,7 @@ export class Upload extends Edit {
   public async makeEdits () {
     await this.uploadFiles()
     await this.uploadOBBs()
-    await this.assignTrack()
+    //await this.assignTrack()
     await this.uploadDeobfuscation()
   }
 
