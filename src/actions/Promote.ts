@@ -38,7 +38,7 @@ export class Promote extends Edit {
   public async makeEdits () {
     await this.findPreviousTrack()
     await this.findPreviousRelease()
-    await this.assignTrack()
+    //await this.assignTrack()
     await this.removePreviousTrack()
   }
 
